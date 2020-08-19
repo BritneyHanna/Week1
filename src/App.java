@@ -38,7 +38,7 @@ public class App {
 		System.out.println ("The woman's last name is " + womansLastName );
 		System.out.println ("The man's middle initial is " + mansMiddleInitial );
 		System.out.println ("The woman's middle inital is " + womansMiddleInitial );
-		System.out.println ("The change left in Mary's purse after purchasing the Frsoting is " + x.format( changeLeftInMarysPurse));
+		System.out.println ("The change left in Mary's purse after purchasing the frosting is " + x.format( changeLeftInMarysPurse));
 		System.out.println ("The change left in Tom's wallet after purchasing the chocolate cake is " + x.format( moneyLeftOverInTimsWallet));
 		System.out.println ("The average number of friends Tom has made per year over the course of his lifetime is  " + tomsAverageFriendsmadeperyear );
 		System.out.println ("The average number of friends Mary has made per year over the course of her lifetime is " + marysAverageFriendsmadeperyear );
