@@ -7,8 +7,8 @@ public class App {
 		double priceOfFrosting = 1.50;
 		double initialAmountOfMoneyinTomsWallet = 154.50;
 		double originalAmountOfMoneyinMarysPurse =200.25;
-		int numberOfTomsFriends = 7;
-		int howmanyFriendsMaryhas = 10;
+		int numberOfTomsFriends = 70;
+		int howmanyFriendsMaryhas = 100;
 		int tomsAge = 35;
 		int marysAge = 47;
 		String mansFirstName ="Tom" ;
@@ -19,8 +19,8 @@ public class App {
 		char womansMiddleInitial ='C';
 		double changeLeftInMarysPurse = originalAmountOfMoneyinMarysPurse - priceOfFrosting ;
 		double moneyLeftOverInTimsWallet =initialAmountOfMoneyinTomsWallet -priceOfChocolateCake;
-		int tomsAverageFriendsmadeperyear = tomsAge/numberOfTomsFriends;
-		int marysAverageFriendsmadeperyear =marysAge/howmanyFriendsMaryhas;
+		int tomsAverageFriendsmadeperyear = numberOfTomsFriends/tomsAge;
+		int marysAverageFriendsmadeperyear =howmanyFriendsMaryhas/marysAge;
 		String mansFullName = mansFirstName + " " + mansMiddleInitial + " " +mansLastName;
 		String womansFullName = womansFirstName + " " + womansMiddleInitial +" " + womansLastName;
 		DecimalFormat x = new DecimalFormat ("##.00");
